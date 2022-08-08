@@ -184,13 +184,13 @@ document.addEventListener('keydown', function(e) {
 
 
 
-document.addEventListener('keydown',function(e){
-  if(e.key == 'q'){
-    console.log("you pressed Q")
-    document.getElementById('punch').play()
-  }
-  else {
-    console.log("not Q")
-    document.getElementById('victory').play()
-  }
-})
+// document.addEventListener('keydown',function(e){
+//   if(e.key == 'q'){
+//     console.log("you pressed Q")
+//     document.getElementById('punch').play()
+//   }
+//   else {
+//     console.log("not Q")
+//     document.getElementById('victory').play()
+//   }
+// })
